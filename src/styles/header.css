@@ -5,18 +5,15 @@
     background-color: #f0f0f0;
     padding: 1rem;
   }
-  
   .header nav ul {
     display: flex;
     gap: 1rem;
     list-style: none;
     padding: 0;
   }
-  
   .header nav ul li {
     display: inline;
   }
-  
   .header nav ul li button {
     cursor: pointer;
     background: none;
