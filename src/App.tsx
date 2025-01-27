@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MyContainer from "./components/MyContainer";
 import About from "./components/About";
 import Header from "./components/Header";
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 
 const App: React.FC = () => {
