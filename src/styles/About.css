@@ -1,0 +1,30 @@
+
+.grid-container {
+    display: grid;
+    gap: 16px;
+    padding: 16px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  }
+  .grid-item {
+    background-color: #f0f0f0;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+  }
+  .show-more-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f80e4c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .show-more-button:hover {
+    background-color: #4b0ed0;
+  }
+  
