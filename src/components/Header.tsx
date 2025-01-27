@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import './styles/header.css';
+import "./../styles/header.css";
+
 const Header: React.FC = () => {
   const { t, i18n } = useTranslation();
   const changeLanguage = (language: string) => {
